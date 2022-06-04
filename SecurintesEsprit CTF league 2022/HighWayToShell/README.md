@@ -28,7 +28,7 @@ int main(){
 Before diving into the exploitation process let's check the security of the binary.<br>
 ![checksec](../images/High_way_to_shell_checksec.png)
 
-We can see that ```NX``` is disabled. So we can inject a Shellcode into the stack when prompted for input. Then we hijack the code execution by overwriting the saved return pointer on the stack and modifie it to point to our shellcode and once the return pointer got popped into RIP, it pointed at our shellcode. This causes the program to execute our instructions, giving us a shell for arbitrary command execution.
+We can see that ```NX``` is disabled. So we can inject a Shellcode into the stack when prompted for input. Then we hijack the code execution by overwriting the saved return pointer on the stack and modifie it to point to our shellcode and once the return pointer got popped into RIP. This causes the program to execute our instructions, giving us a shell for arbitrary command execution.
 
 ## Solver
 ```py
