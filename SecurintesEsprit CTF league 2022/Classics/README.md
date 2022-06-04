@@ -84,7 +84,7 @@ undefined8 main(void)
 
 ### Overview
 Before diving into the exploitation process lets check the properties of executable file.<br>
-![checksec](../images/Classics_checksec.png)
+![checksec](../images/classics_checksec.png)
 
 We can see that ```NX``` is enabled and a ```Canary``` found (if you don't know what canary is you can check this https://ctf101.org/binary-exploitation/stack-canaries/). So in order to solve this we need to :
 	<ul>
