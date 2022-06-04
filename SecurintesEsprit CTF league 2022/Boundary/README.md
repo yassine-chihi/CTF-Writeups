@@ -33,7 +33,7 @@ undefined8 main(void)
 }
 ```
 ## Overview
-In this challenge we got 2 variable stored in the Stack ```info = 0x4040a0``` and ```check = 0x404090``` where the difference is 0x10. So in order to solve it we need to point to ```check``` and assign to it ```0x539```(1337 in integer) to get a Shell. But how we do that ? 
+In this challenge we got 2 variable stored in the Stack ```info = 0x4040a0``` and ```check = 0x404090``` where the difference is 0x10. So in order to solve it we need to point to ```check``` and assign to it ```0x539```(1337 in integer) to get a Shell. But how we do that ?<br>
 Thanks to this expression ```*(int *)(info + (long)var2 * 4) = *(int *)(info + (long)var2 * 4) + var1;``` if ```var2 == -4``` and ```var1 == 1337``` it will be like ```*(int *)(0x404090) = 0 + 1337``` as simple as that !
 
 ## Solver
