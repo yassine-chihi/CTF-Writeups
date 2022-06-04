@@ -29,7 +29,7 @@ int main(){
 }
 ```
 ### Overview
-This challenge is a bit similar to the ![BabyBOF](../BabyBOF) but here we have arguments to pass.
+This challenge is a bit similar to the [BabyBOF](../BabyBOF) but here we have arguments to pass.
 In order to do that we can use ```ROP``` from pwntools library, that makes our lives more better.
 
 ### Solver
