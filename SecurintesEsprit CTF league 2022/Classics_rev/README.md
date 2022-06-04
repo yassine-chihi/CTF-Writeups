@@ -72,7 +72,7 @@ undefined8 main(void)
 Before diving into the exploitation process let's check the security of the binary.<br>
 ![checksec](../images/Classics_rev_checksec.png)
 
-We can see that both ```NX``` and ```PIE``` are enabled (if you don't know what PIE is you can check this https://ir0nstone.gitbook.io/notes/types/stack/pie). So in order to solve this we need to :
+We can see that both ```NX``` and ```PIE``` are enabled (if you don't know what is PIE you can check this https://ir0nstone.gitbook.io/notes/types/stack/pie). So in order to solve this we need to :
 	<ul>
 		<li><strong>Leak PIE base address</strong></li>
 		<li><strong>Calculate libc.address</strong></li>
