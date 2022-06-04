@@ -2,7 +2,7 @@
 ![challenge](../images/Bad_timing)
 
 ### Source Code
-<em>I used ghidra to dubug the executable file and here is the result.</em>
+<em>I used ghidra to decompile the executable file and here is the result.</em>
 ```c
 undefined8 win(void)
 
