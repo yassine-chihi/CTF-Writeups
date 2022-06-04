@@ -1,5 +1,5 @@
 ## Smash revenge
-![challenge](../images/Smash_Rev.png)
+![challenge](../images/Smash_rev.png)
 
 ### Source Code
 ```c
