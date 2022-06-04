@@ -1,5 +1,5 @@
 ## Bad timing
-![challenge](../images/Bad_timing)
+![challenge](../images/Bad_timing.png)
 
 ### Source Code
 <em>I used ghidra to decompile the executable file and here is the result.</em>
