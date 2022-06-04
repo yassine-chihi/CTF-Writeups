@@ -1,5 +1,5 @@
 # Dmax
-![challenge](../images/Resolver.png)
+![challenge](../images/Dmax.png)
 
 ## Source Code
 ```c
